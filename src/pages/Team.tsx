@@ -50,6 +50,7 @@ const members: Member[] = [
 const ProfileContainer = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: center;
 `
 
 const Team = (props: Props) => {
