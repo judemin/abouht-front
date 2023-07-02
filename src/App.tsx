@@ -1,11 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-<<<<<<< HEAD
-import Landing from "./Landing"
-=======
 import Landing from "./pages/Landing"
 import Team from "./pages/Team"
 import NavigationBar from "./components/NavigationBar"
->>>>>>> origin/develop
 
 const App = () => {
   return (
