@@ -16,4 +16,10 @@
 
 body {
   font-family: "GmarketSans";
+  background-color: #162940;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
