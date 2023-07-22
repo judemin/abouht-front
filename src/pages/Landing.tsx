@@ -104,6 +104,7 @@ const Landing = () => {
           <br />
           꿈을 써내다
         </Title>
+        
         <ButtonContainer>
           <ImgButton
             src="https://img.freepik.com/free-icon/google-play_318-566073.jpg"
