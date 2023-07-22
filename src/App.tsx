@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+// import { useEffect } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Landing from "./pages/Landing"
 import Team from "./pages/Team"
@@ -7,19 +7,20 @@ import Footer from "./components/Footer"
 import Service from "./pages/Service"
 import About from "./pages/About"
 import Preview from "./pages/Preview"
-import ReactGA from "react-ga"
+import ReactGA from "react-ga4"
 
 const TRACKING_ID = "G-QC9S9TTFPF" // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID)
 
 const App = () => {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  }, [])
+  // useEffect(() => {
+  //   ReactGA.pageview(window.location.pathname + window.location.search)
+  // }, [])
 
   return (
     <BrowserRouter>
       <Header />
+
       <div className="container">
         <Routes>
           <Route path="/" element={<Landing />} />
